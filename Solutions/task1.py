@@ -7,7 +7,7 @@ should be printed in a comma-separated sequence on a single line.
 """
 list = []
 for x in range (2000, 3201):
-    if (x%7==0 and x%5!=0):
+    if x%7==0 and x%5!=0:
         list.append(str(x))
 
 print (','.join(list))
